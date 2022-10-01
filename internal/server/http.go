@@ -31,7 +31,7 @@ func newHTTPServer() *httpServer {
 }
 
 type ProduceRequest struct {
-	Record Record `json:"record`
+	Record Record `json:"record"`
 }
 
 type ProduceResponse struct {
